@@ -1,0 +1,25 @@
+# Ignorar pacotes
+node_modules/
+packages/
+_packages/
+_packeges/
+
+# Ignorar logs
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos JSON gerados
+arquivos-json/
+
+# env
+/.env
+.env*
+!.env.example
+**/.env
+**/.env.*
+
+# Ignorar a pasta _packages (na raiz)
+_packages/

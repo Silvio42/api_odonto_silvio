@@ -1,0 +1,56 @@
+[
+  {
+    "index": 1,
+    "input": {
+      "cd_empresa": 27552,
+      "nome": "ZALIC COMERCIO DE MATERIAIS PARA CONSTRUCAO E E REPRESENTACOES COMERCIAIS LTDA",
+      "nr_cgc": "00067350000175",
+      "cd_orgao": null,
+      "cd_grupo": null,
+      "tpempresa": 2,
+      "classificacao": 2
+    },
+    "status": 400,
+    "error": [
+      {
+        "Erro": "Já existe um Departamento cadastrado com esse CNPJ"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "input": {
+      "cd_empresa": 27552,
+      "nome": "V.S. BUSINESS LTDA ME",
+      "nr_cgc": "00071146000128",
+      "cd_orgao": null,
+      "cd_grupo": null,
+      "tpempresa": 2,
+      "classificacao": 2
+    },
+    "status": 400,
+    "error": [
+      {
+        "Erro": "Já existe um Departamento cadastrado com esse CNPJ"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "input": {
+      "cd_empresa": 27552,
+      "nome": "RABBIT INDUSTRIA E COMERCIO DE PRODUTOS DE HIGIENE PESSOAL LTDA",
+      "nr_cgc": "00099817000169",
+      "cd_orgao": null,
+      "cd_grupo": null,
+      "tpempresa": 2,
+      "classificacao": 2
+    },
+    "status": 400,
+    "error": [
+      {
+        "Erro": "Já existe um Departamento cadastrado com esse CNPJ"
+      }
+    ]
+  }
+]
