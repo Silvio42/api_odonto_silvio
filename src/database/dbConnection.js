@@ -1,7 +1,8 @@
+// src/database/dbConnection.js
+require('dotenv').config();
 const knex = require('knex');
-const config = require('../../knexfile');
+const knexfile = require('../../knexfile');
 
-const dbConnection = knex(config.simulation);
+const db = knex(knexfile.production);
 
-
-module.exports = dbConnection;
+module.exports = db;

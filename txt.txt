@@ -1,0 +1,18 @@
+rodar todo dia as 8h00 da manha passando cadastrando o que tem de novo do dia anterior
+
+---------------------------------------------------------------------------------------------------
+
+27552 -> Coletivo Empresarial -> cnatutitu -> 3
+27543 -> Coletivo Adesão      -> cnatutitu -> 4
+
+---------------------------------------------------------------------------------------------------
+
+select *
+  from hsstxmen
+ where nnumetxmen in (155616900, 163198861, 168980581, 141287944, 208002771)
+ 
+ 155616900 - ODONTOLOGIA - LIDERE
+ 163198861 - ODONTOLOGIA - SINTROL
+ 168980581 - ADITIVO ODONTO NOVAS TABELAS PJ
+ 141287944 - ODONTOLOGIA
+ 208002771 - ODONTO TAMARANA
